@@ -1,4 +1,4 @@
- addToDoButton = document.getElementById("addToDo");
+let addToDoButton = document.getElementById("addToDo");
 let toDocontainer = document.getElementById("toDoContainer")
 let inputField = document.getElementById("inputField");
 let historyC = document.getElementById("history");
