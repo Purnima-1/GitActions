@@ -1,9 +1,9 @@
-let addToDoButton = document.getElementById("addToDo");
+ addToDoButton = document.getElementById("addToDo");
 let toDocontainer = document.getElementById("toDoContainer")
 let inputField = document.getElementById("inputField");
 let historyC = document.getElementById("history");
 
-addToDoButton.addEventListener("click", functio () {
+addToDoButton.addEventListener("click", function () {
 
     var paragraph = document.createElement("p");
     var deleteItem = document.createElement("p");
